@@ -1,0 +1,487 @@
+*{
+    margin : 0;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+::selection {
+    color: #8ac8b0;
+    background: #fffe00;
+  }
+
+/* Header and Navigation Area Starts Here */
+
+/* Banner Area */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+/* Header Area */
+.header {
+    background: #fefff3;
+    background-image: url(../images/header_v2.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    padding-top: 40px;
+}
+
+/* Navigation Area */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-left: 180px;
+    padding-bottom: 50px;
+}
+
+/* Nav Title "Mary" */
+
+.logo img{
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+/* Navigation List */
+nav ul{
+    display: flex;
+
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+.first-title{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 40px;
+    color: #474747;
+}
+.portfolio{
+    transition: 0.5s cubic-bezier(0.95, 0.18, 0.27, 0.95);
+    cursor: pointer;
+    font-weight: bold;
+    color: #d1d010;
+}
+.blog{
+    transition: 0.5s cubic-bezier(0.95, 0.18, 0.27, 0.95);
+    cursor: pointer;
+    font-weight: bold;
+    color: #d1d010;
+}
+.portfolio:hover{
+    color: #8ac8b0;    
+}
+.blog:hover{
+    color: #8ac8b0;
+}
+
+/* Hire Me Button */
+.btn-primary{
+    background: #d1d010;
+    border: 0;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 35px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 3px;
+    color: #FFFFFF;
+    height: 45px;
+    margin-top: -10px;
+    margin-bottom: 110px;
+    transition: 0.8s cubic-bezier(0.95, 0.18, 0.27, 0.95);
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: #8ac8b0;
+    color: #fffe00;
+}
+
+/* Banner Area */
+
+.author-name{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 170px;
+    color: #8ac8b0;
+    transition: 0.8s cubic-bezier(0.95, 0.18, 0.27, 0.95);
+}
+
+.author-name:hover{
+    color : #d1d010;
+}
+
+.banner-description{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* Download CV Button */
+.dwnld-btn{
+    background: #d1d010;
+    border: 0;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 10px 35px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 160px;
+    height: 45px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 3px;
+    transition: 0.8s cubic-bezier(0.95, 0.18, 0.27, 0.95);
+    cursor: pointer;
+}
+
+.dwnld-btn:hover{
+    background-color: #8ac8b0;
+    color: #fffe00;
+}
+
+img{
+    width: 50%;
+}
+
+/* Header and Navigation Area Ends Here */
+
+
+/* About Section Starts Here */
+/* About Section Parent Area */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about_section{
+    background: #fefff3;
+    border-radius: 10px;
+    margin-top: 130px;
+    padding: 130px 150px;
+}
+/* About Section Parent Area Ends */
+.about_me{
+    text-align: center;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+}
+
+.about_description{
+    text-align: center;
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    width: 827px;
+    height: 120px;
+}
+
+
+/* Parent Area */
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info .info-title{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #757575;
+}
+
+.about-info .info-description{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;  
+    text-align: center;   
+    color: #474747;
+}
+/* Parent Area Ends */
+
+/* About Section Ends Here */
+
+/* What I Do Section Starts Here */
+/* W-I-D Parent */
+.what-i-do{
+    margin-top: 130px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skills-container img{
+    width: 44px;
+    height: 44px;
+}
+
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    width: 267px;
+    height: 377px;
+    padding: 30px;
+    transition: 0.5s cubic-bezier(0.95, 0.18, 0.27, 0.95);
+}
+/* W-I-D Parent Ends */
+
+.wid-title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    margin: 30px;
+}
+
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.wid-description{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 50px; 
+}
+
+.skill-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+/* Hover */
+.skill:hover{
+    transform: scale(1.1);
+}
+/* What I Do Section Ends Here */
+
+/* A summary of My Resume Starts Here */
+/* Summary Parent */
+.summary{
+    margin-top: 130px;
+    margin-bottom: 500px;
+}
+.sum-parent{
+    display: flex;
+    gap: 71px;
+}
+/* Summary Parent Ends*/
+.summary-title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
+    margin-bottom: 113px;
+}
+/* My Education Starts*/
+/* My Ed Parent */
+.myEducation{
+    width: 511px;
+    height: 175px;
+}
+/* My Ed Parent Ends */
+.myEd-title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 41px;
+    color: #474747;
+}
+.myEd-description{
+
+}
+/* BSC */
+.bsc{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    color: #474747;
+    margin-top: 30px;
+}
+.from-passingYear{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.sum-description{
+    width: 511px;
+    height: 84px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-top: 20px;
+}
+/* BSC Ends */
+.hsc{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    color: #474747;
+    margin-top: 60px;
+}
+/* My Education Ends */
+
+/* My Experience Starts*/
+/* My Exp Parent */
+.myExperience{
+    width: 511px;
+    height: 175px;
+}
+/* My Exp Parent Ends */
+.myExp-title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 41px;
+    color: #474747;
+}
+.myExp-description{
+
+}
+/* Jr Dev */
+.jr-dev{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    color: #474747;
+    margin-top: 30px;
+}
+.since{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px; 
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 50px;  
+}
+
+.exp-in{
+    width: 511px;
+    height: 84px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-top: 20px;
+}
+/* Jr Dev Ends */
+
+/* Front End */
+.fr-end{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    color: #474747;
+    margin-top: 60px;
+}
+/* Front End [Ends] */
+/* My Experience Ends */
+/* A summary of My Resume Ends Here */
+
+/* Footer Starts Here */
+.footer_area{
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+    background: #fefff3;
+    padding: 130px 200px;
+}
+.footer_area input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+/* First Section */
+.first_section{
+
+}
+.lets-connect{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 48px;   
+    text-align: left;
+    color: #181818;
+}
+.footer-description{
+    width: 562px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #474747;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.first_section img {
+    width: 24px;
+    height: 24px;
+    margin: 0px 10px;
+}
+/* First Section Ends */
+
+/* Section 2 */
+.section2{
+
+}
+.lets-message{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 48px;  
+    text-align: left;
+    color: #181818;   
+}
+
+/* Submit Button */
+.submit-btn{
+    background: #d1d010;
+    border: 0;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 35px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 3px;
+    color: #FFFFFF;
+    height: 45px;
+    margin-top: -10px;
+    margin-bottom: 110px;
+    transition: 0.8s cubic-bezier(0.95, 0.18, 0.27, 0.95);
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+        background-color: #8ac8b0;
+        color: #fffe00;
+}
+/* Section 2 Ends */
+/* Footer Ends Here */
