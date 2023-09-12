@@ -36,7 +36,7 @@ nav{
     padding-bottom: 50px;
 }
 
-/* Nav Title "Mary" */
+/* Nav Title */
 
 .logo img{
     margin-top: -20px;
@@ -147,6 +147,7 @@ nav li{
 
 img{
     width: 50%;
+    margin-left: 12%;
 }
 
 /* Header and Navigation Area Ends Here */
@@ -418,7 +419,6 @@ main{
     width: 100%;
     padding: 18px 30px;
     outline: none;
-    transition: 0.8s cubic-bezier(0.95, 0.18, 0.27, 0.95);
 }
 
 /* First Section */
@@ -490,73 +490,3 @@ main{
 }
 /* Section 2 Ends */
 /* Footer Ends Here */
-
-
-/* Responsive */
-
-@media screen and (max-width:576px) {
-    .header{
-
-    }
-    nav{
-        display: grid;
-        text-align: center;
-    }
-    .logo{
-    width: 40%;
-    text-align: center;
-    }
-    .list{
-
-    }
-    .main{
-
-    }
-    .what-i-do{  
-        flex-direction: column;
-    }
-    .wid-description {
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 25px;
-        text-align: center;
-        color: #757575;
-        width: 75%;
-        margin-left: 50px;
-    }
-    .wid-title {
-        font-weight: 700;
-        font-size: 30px;
-        text-align: center;
-    }
-    .skills-container{
-        display: flex;
-        flex-direction: column;
-        margin-left: 16%;
-    }
-    .skill-description {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 30px;
-        margin-left: 15px;
-    }
-    .skill-title {
-        font-weight: 700;
-        font-size: 15px;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-    .skill{
-        width: 200px;
-        height: 260px;
-        padding: 30px;
-        transition: 0.5s cubic-bezier(0.95, 0.18, 0.27, 0.95);
-    }
-    .skill:hover{
-    transform: scale(1.1);
-    }
-}
-@media screen and (min-width:577px) and (max-width:992px) {
-    
-}
